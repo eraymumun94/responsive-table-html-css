@@ -19,12 +19,13 @@ td {
 @media screen and (max-width: 800px){
     table {
         min-width: 300px;
+        margin: 0px auto;
+        padding: 0px;
     }
     thead  {
         display: none;
     }
     table tr {
-
         display: block;
         padding: 20px;
     }
@@ -37,6 +38,19 @@ td {
         border-right: 1px solid black;
         display: block;
         text-align: right;
-        padding:20px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    table {
+        width: 250px;
+        min-width: 250px;
+    }
+
+    table tr {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
     }
 }
